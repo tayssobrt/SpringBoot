@@ -19,9 +19,12 @@ private final FoodRepository foodRepository;
     //listar
     public List<Food> getAll() {return foodRepository.findAll();
     //criar
+        public List<Food> save() {return foodRepository.save();
+
         }
 
 
 
     }
 
+}
